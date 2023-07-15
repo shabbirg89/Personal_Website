@@ -137,7 +137,7 @@ const playlists = [
       {
         id: 1,
         title: '5 videos',
-        description: `Embark on a comprehensive Large Language Model (LLM) tutorial playlist and dive into the world of advanced natural language processing and artificial intelligence. Whether you're a researcher, developer, or language enthusiast, this playlist is tailored to enhance your understanding and usage of large language models. From the basics of LLM architecture and training to advanced topics like fine-tuning and transfer learning, we cover it all. Explore practical examples and hands-on exercises to gain expertise in generating human-like text and language understanding. Join us on this learning journey and unlock the full potential of large language models in your AI projects. Let's dive into LLM together!`,
+        description: `GitHub Playlist on YouTube offers a curated collection of videos showcasing innovative projects, coding tutorials, and software development insights. Dive into the world of open-source collaboration, version control, and programming languages while learning from industry experts and exploring the vast GitHub ecosystem. Expand your coding skills and stay up-to-date with the latest trends in software development through this engaging playlist.`,
         thumbnail: video9Thumbnail,
         youtubeLink: 'https://youtu.be/BB--sfneIaY',
       },
