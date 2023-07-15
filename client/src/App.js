@@ -292,7 +292,7 @@ function App() {
       <div>
         <h2>Advanced Playlists:</h2>
         {playlists
-          .filter((playlist) => playlist.id > 3)
+          .filter((playlist) => playlist.id > 3 & playlist.id < 13)
           .map((playlist) => (
             <div key={playlist.id}>
               <h3>{playlist.name}</h3>
