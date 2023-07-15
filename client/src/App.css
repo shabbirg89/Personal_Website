@@ -138,3 +138,90 @@ h1 {
 .contact a:hover {
   color: #555;
 }
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    margin-top: 0;
+  }
+}
+
+/* Additional Styling for Attractiveness */
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav a {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.video-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-me {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me p:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #bbb;
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.5;
+}
