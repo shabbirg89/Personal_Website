@@ -10,6 +10,11 @@ import video6Thumbnail from './assets/video6_thumbnail.jpg';
 import video7Thumbnail from './assets/video7_thumbnail.jpg';
 import video8Thumbnail from './assets/video8_thumbnail.jpg';
 import video9Thumbnail from './assets/video9_thumbnail.jpg';
+import video10Thumbnail from './assets/video10_thumbnail.jpg';
+import video11Thumbnail from './assets/video11_thumbnail.jpg';
+import video12Thumbnail from './assets/video12_thumbnail.jpg';
+import video13Thumbnail from './assets/video13_thumbnail.jpg';
+import video14Thumbnail from './assets/video14_thumbnail.jpg';
 
 const playlists = [
   {
@@ -139,6 +144,76 @@ const playlists = [
       // Add more video objects for the ninth playlist
     ],
   },
+  {
+    id: 10,
+    name: 'FLASK Framework tutorial for Beginners',
+    videos: [
+      {
+        id: 1,
+        title: '8 videos',
+        description: `Explore the power of Flask with our concise YouTube playlist. From building simple web applications to integrating databases and implementing authentication, this beginner-friendly tutorial series covers the essentials of Flask development. Join us and unlock the potential of Flask for your web projects!`,
+        thumbnail: video10Thumbnail,
+        youtubeLink: 'https://youtu.be/uU8-Ik8rxuw',
+      },
+      // Add more video objects for the ninth playlist
+    ],
+  },
+  {
+    id: 11,
+    name: 'Machine Learning/Deep Learning Projects for Beginners',
+    videos: [
+      {
+        id: 1,
+        title: '33 videos',
+        description: `Dive into the world of Machine Learning and Deep Learning with our comprehensive YouTube playlist. From understanding the fundamentals of ML/DL algorithms to implementing advanced models and techniques, this playlist is designed to enhance your skills in AI. Explore practical examples, hands-on projects, and stay up-to-date with the latest advancements in ML/DL. Let's embark on this learning journey and unlock the full potential of ML/DL in your projects!`,
+        thumbnail: video11Thumbnail,
+        youtubeLink: 'https://youtu.be/tHI9mhxzhMM',
+      },
+      // Add more video objects for the ninth playlist
+    ],
+  },
+  {
+    id: 12,
+    name: 'Natural language processing tutorial for Beginners',
+    videos: [
+      {
+        id: 1,
+        title: '8 videos',
+        description: `Embark on a journey into Natural Language Processing (NLP) with our comprehensive YouTube playlist. Whether you're a researcher, developer, or language enthusiast, this playlist is tailored to enhance your understanding and application of NLP techniques. From basic concepts like text preprocessing and sentiment analysis to advanced topics such as language modeling and neural machine translation, we cover it all. Join us on this learning adventure and unlock the full potential of NLP in your projects!`,
+        thumbnail: video12Thumbnail,
+        youtubeLink: 'https://youtu.be/YC7L61vNeN4',
+      },
+      // Add more video objects for the ninth playlist
+    ],
+  },
+  {
+    id: 13,
+    name: 'Tableau crash course for Beginners',
+    videos: [
+      {
+        id: 1,
+        title: '4 videos',
+        description: `Dive into Tableau with our crash course playlist and unleash your data visualization skills. Whether you're a beginner or an experienced analyst, this playlist is designed to enhance your Tableau proficiency. From the fundamentals of data connections and visualization techniques to advanced features like calculations and interactive dashboards, we cover it all. Join us on this accelerated learning journey and master Tableau for impactful data storytelling and analysis.`,
+        thumbnail: video13Thumbnail,
+        youtubeLink: 'https://youtu.be/znFkHXw58cU',
+      },
+      // Add more video objects for the ninth playlist
+    ],
+  },
+  {
+    id: 14,
+    name: 'Power BI crash course for Beginners',
+    videos: [
+      {
+        id: 1,
+        title: '2 videos',
+        description: `Embark on a Power BI crash course playlist and unlock the power of data analysis and visualization. Whether you're a beginner or an experienced data professional, this playlist is tailored to enhance your Power BI skills. From connecting to data sources and creating compelling visualizations to advanced topics like data modeling and interactive reports, we cover it all. Join us on this accelerated learning journey and harness the full potential of Power BI in your data-driven projects.`,
+        thumbnail: video14Thumbnail,
+        youtubeLink: 'https://youtu.be/22zDN8gi2Rc',
+      },
+      // Add more video objects for the ninth playlist
+    ],
+  },
   // Add more playlist objects following the same structure
 ];
 
@@ -240,6 +315,34 @@ function App() {
             </div>
           ))}
       </div>
+
+      <div>
+        <h2>Analytics tools Playlists:</h2>
+        {playlists
+          .filter((playlist) => playlist.id > 12)
+          .map((playlist) => (
+            <div key={playlist.id}>
+              <h3>{playlist.name}</h3>
+              {playlist.videos.map((video) => (
+                <div key={video.id} className="video-container">
+                  <img src={video.thumbnail} alt="Video Thumbnail" />
+                  <h4>{video.title}</h4>
+                  <p>{video.description}</p>
+                  <div className="links">
+                    <a
+                      href={video.youtubeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch on YouTube
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ))}
+      </div>
+
       <footer className="footer">
         <p>© 2023 Shabbir Governor</p>
         <p>
