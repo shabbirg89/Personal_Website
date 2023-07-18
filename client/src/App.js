@@ -65,7 +65,7 @@ const playlists = [
     videos: [
       {
         id: 1,
-        title: '29 videos',
+        title: '40 videos',
         description: `Embark on a journey to master AS400 RPG and COBOL programming with our comprehensive tutorial playlist. Whether you're a beginner or experienced developer, this playlist is tailored to enhance your skills in these powerful languages. From the fundamentals of AS400 RPG and COBOL syntax to advanced topics like file handling and program optimization, we cover it all. Dive into practical examples and exercises to gain hands-on experience and sharpen your abilities. Join us on this learning adventure and unlock the full potential of AS400 RPG and COBOL in your programming endeavors. Let's dive into AS400 RPG and COBOL together!`,
         thumbnail: video4Thumbnail,
         youtubeLink: 'https://youtu.be/6oEXW_EvPiY',
