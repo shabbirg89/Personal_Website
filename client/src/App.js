@@ -51,7 +51,7 @@ const playlists = [
     videos: [
       {
         id: 1,
-        title: '21 videos',
+        title: '22 videos',
         description: `Explore the world of Java programming with our comprehensive tutorial playlist. Whether you're new to coding or an experienced developer, this playlist is designed to enhance your Java skills. From the basics of syntax and control flow to advanced topics such as object-oriented programming and exception handling, we've got you covered. Dive into practical examples and exercises that will sharpen your Java proficiency. Join us on this learning journey and unlock the full potential of Java in your programming endeavors. Let's dive into Java together!`,
         thumbnail: video3Thumbnail,
         youtubeLink: 'https://youtu.be/6oEXW_EvPiY',
