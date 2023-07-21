@@ -23,7 +23,7 @@ import video14Thumbnail from './assets/video14_thumbnail.jpg';
 const App = () => {
   const aboutMe = {
     name: 'Shabbir Governor',
-    description: 'As a highly skilled and seasoned data science professional with over 4+ years of experience, I leverage my expertise in Generative AI, machine learning/deep learning, and natural language processing to enhance the predictive capabilities of software products. I have a diverse background in the Insurtech and AdTech domains and have hands-on experience with a variety of open source tools and algorithms in the ML/DL field. My commitment to staying up-to-date with the latest industry trends is demonstrated through my active engagement with the tech community, including running a YouTube channel that features technical topics.',
+    description: 'As a highly skilled and seasoned data science professional with over 5+ years of experience, I leverage my expertise in Generative AI, machine learning/deep learning, and natural language processing to enhance the predictive capabilities of software products. I have a diverse background in the Insurtech and AdTech domains and have hands-on experience with a variety of open source tools and algorithms in the ML/DL field. My commitment to staying up-to-date with the latest industry trends is demonstrated through my active engagement with the tech community, including running a YouTube channel that features technical topics.',
     linkedin: 'https://www.linkedin.com/in/shabbir-governor-442842154/',
     github: 'https://github.com/shabbirg89',
     youtube: 'https://www.youtube.com/channel/UCmKYzVoMFhr3yjhOsw3SqGQ',
