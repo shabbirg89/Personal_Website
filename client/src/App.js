@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import Navbar from './Navbar';
-import Profile from './Profile';
-import AboutMe from './AboutMe';
-import VideoList from './VideoList';
-import Footer from './Footer';
+import './styles/App.css';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
+import AboutMe from './components/AboutMe';
+import VideoList from './components/VideoList';
+import Footer from './components/Footer';
 import video1Thumbnail from './assets/video1_thumbnail.jpg';
 import video2Thumbnail from './assets/video2_thumbnail.jpg';
 import video3Thumbnail from './assets/video3_thumbnail.jpg';

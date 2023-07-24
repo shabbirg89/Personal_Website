@@ -1,7 +1,7 @@
 // Profile.js
 import React from 'react';
-import profileImage from './profile.jpg';
-import './Profile.css'; // Import the CSS file for the component
+import profileImage from '../assets/profile.jpg';
+import '../styles/Profile.css'; // Import the CSS file for the component
 
 const Profile = ({ name }) => {
   return (
