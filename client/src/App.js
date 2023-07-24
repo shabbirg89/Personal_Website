@@ -19,6 +19,7 @@ import video11Thumbnail from './assets/video11_thumbnail.jpg';
 import video12Thumbnail from './assets/video12_thumbnail.jpg';
 import video13Thumbnail from './assets/video13_thumbnail.jpg';
 import video14Thumbnail from './assets/video14_thumbnail.jpg';
+import video15Thumbnail from './assets/video15_thumbnail.jpg';
 
 const App = () => {
   const aboutMe = {
@@ -42,6 +43,20 @@ const App = () => {
           youtubeLink: 'https://youtu.be/83IHr2fQ2Rs',
         },
         // Add more video objects for the first playlist
+      ],
+    },
+    {
+      id: 1,
+      name: 'Microsoft SQL server tutorials for Beginners',
+      videos: [
+        {
+          id: 1,
+          title: '8 videos',
+          description: `Master Microsoft SQL Server with our comprehensive tutorial playlist! Learn essential database management, query optimization, and advanced data manipulation techniques from industry experts. Level up your SQL skills and unleash the full potential of this powerful database platform.`,
+          thumbnail: video15Thumbnail,
+          youtubeLink: 'https://youtu.be/hTCCYFKjuYY',
+        },
+        // Add more video objects for the ninth playlist
       ],
     },
     {
