@@ -20,6 +20,9 @@ import video12Thumbnail from './assets/video12_thumbnail.jpg';
 import video13Thumbnail from './assets/video13_thumbnail.jpg';
 import video14Thumbnail from './assets/video14_thumbnail.jpg';
 import video15Thumbnail from './assets/video15_thumbnail.jpg';
+import video16Thumbnail from './assets/video16_thumbnail.jpg';
+import video17Thumbnail from './assets/video17_thumbnail.jpg';
+import video18Thumbnail from './assets/video18_thumbnail.jpg';
 
 const App = () => {
   const aboutMe = {
@@ -74,6 +77,20 @@ const App = () => {
       ],
     },
     {
+      id: 2,
+      name: 'Object Oriented Python tutorials',
+      videos: [
+        {
+          id: 1,
+          title: '9 videos',
+          description: `Dive into the world of Object-Oriented Programming in Python with this comprehensive YouTube playlist! Learn the fundamental principles of OOP, inheritance, encapsulation, and polymorphism, while building practical projects and honing your Python skills to create robust and maintainable code.`,
+          thumbnail: video17Thumbnail,
+          youtubeLink: 'https://youtu.be/OiT4i9UMrsc',
+        },
+        // Add more video objects for the second playlist
+      ],
+    },
+    {
       id: 3,
       name: 'Java Tutorials for Beginners',
       videos: [
@@ -112,6 +129,21 @@ const App = () => {
           Embark on a PySpark tutorial playlist and unlock the power of big data processing with Python. Whether you're a beginner or an experienced data professional, this playlist is designed to enhance your PySpark skills. From the basics of distributed computing and data transformation to advanced topics like machine learning and data streaming, we cover it all. Dive into practical examples and exercises to gain hands-on experience with PySpark's powerful capabilities. Join us on this learning journey and harness the full potential of PySpark in your big data projects. Let's dive into PySpark together!`,
           thumbnail: video5Thumbnail,
           youtubeLink: 'https://youtu.be/AB2nUrKYRhw',
+        },
+        // Add more video objects for the fifth playlist
+      ],
+    },
+    {
+      id: 5,
+      name: 'Apache SPARK Tutorials with Scala Programming',
+      videos: [
+        {
+          id: 1,
+          title: '4 videos',
+          description: `
+          Explore the power of big data processing with Apache Spark in Scala! This YouTube playlist covers essential concepts, hands-on tutorials, and real-world examples, guiding you through Spark's distributed computing, data transformations, and advanced analytics for scalable and lightning-fast data processing.`,
+          thumbnail: video16Thumbnail,
+          youtubeLink: 'https://youtu.be/i0OVJJUamgQ',
         },
         // Add more video objects for the fifth playlist
       ],
@@ -182,6 +214,20 @@ const App = () => {
           description: `Explore the power of Flask with our concise YouTube playlist. From building simple web applications to integrating databases and implementing authentication, this beginner-friendly tutorial series covers the essentials of Flask development. Join us and unlock the potential of Flask for your web projects!`,
           thumbnail: video10Thumbnail,
           youtubeLink: 'https://youtu.be/uU8-Ik8rxuw',
+        },
+        // Add more video objects for the ninth playlist
+      ],
+    },
+    {
+      id: 10,
+      name: 'AWS ML/DL model deployment',
+      videos: [
+        {
+          id: 1,
+          title: '6 videos',
+          description: `Master the art of deploying machine learning models on AWS Cloud with this in-depth YouTube playlist. Explore AWS services like SageMaker, Lambda, and API Gateway to efficiently deploy, scale, and manage your ML models in a serverless and cost-effective environment, enabling seamless integration into your applications and workflows.`,
+          thumbnail: video18Thumbnail,
+          youtubeLink: 'https://youtu.be/DUcbIYZNJ6c',
         },
         // Add more video objects for the ninth playlist
       ],
