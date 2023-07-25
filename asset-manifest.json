@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_Website/static/css/main.ff22a9e5.css",
-    "main.js": "/Personal_Website/static/js/main.e419c45f.js",
+    "main.js": "/Personal_Website/static/js/main.625807dd.js",
     "static/media/video3_thumbnail.jpg": "/Personal_Website/static/media/video3_thumbnail.83b9e52153077931cbf7.jpg",
     "static/media/video6_thumbnail.jpg": "/Personal_Website/static/media/video6_thumbnail.f8c75f7d73432b31b30d.jpg",
     "static/media/video5_thumbnail.jpg": "/Personal_Website/static/media/video5_thumbnail.b68bc1e4a8032c9f46b1.jpg",
@@ -11,9 +11,12 @@
     "static/media/video11_thumbnail.jpg": "/Personal_Website/static/media/video11_thumbnail.c0af074694c43d12249e.jpg",
     "static/media/video10_thumbnail.jpg": "/Personal_Website/static/media/video10_thumbnail.404d4563aec123324844.jpg",
     "static/media/video12_thumbnail.jpg": "/Personal_Website/static/media/video12_thumbnail.2b5f6afb6e66f577bd05.jpg",
+    "static/media/video17_thumbnail.jpg": "/Personal_Website/static/media/video17_thumbnail.9a712ac299681d1b0265.jpg",
     "static/media/video14_thumbnail.jpg": "/Personal_Website/static/media/video14_thumbnail.81bffd715b5e0a0de80e.jpg",
     "static/media/video15_thumbnail.jpg": "/Personal_Website/static/media/video15_thumbnail.4c53cf70cee36a4ed104.jpg",
+    "static/media/video16_thumbnail.jpg": "/Personal_Website/static/media/video16_thumbnail.c2e32fe6db036f55db09.jpg",
     "static/media/video13_thumbnail.jpg": "/Personal_Website/static/media/video13_thumbnail.2391eec2763262495b47.jpg",
+    "static/media/video18_thumbnail.jpg": "/Personal_Website/static/media/video18_thumbnail.cd2a5d7defc99bbfc9b1.jpg",
     "static/media/video8_thumbnail.jpg": "/Personal_Website/static/media/video8_thumbnail.34e9b114ecbab3839448.jpg",
     "static/media/profile.jpg": "/Personal_Website/static/media/profile.2be791c9460f6c15fdf9.jpg",
     "static/media/video9_thumbnail.jpg": "/Personal_Website/static/media/video9_thumbnail.14025e54a853738993d8.jpg",
@@ -21,10 +24,10 @@
     "static/media/profileBackground.jpg": "/Personal_Website/static/media/profileBackground.569a9f88d7265e823bcb.jpg",
     "index.html": "/Personal_Website/index.html",
     "main.ff22a9e5.css.map": "/Personal_Website/static/css/main.ff22a9e5.css.map",
-    "main.e419c45f.js.map": "/Personal_Website/static/js/main.e419c45f.js.map"
+    "main.625807dd.js.map": "/Personal_Website/static/js/main.625807dd.js.map"
   },
   "entrypoints": [
     "static/css/main.ff22a9e5.css",
-    "static/js/main.e419c45f.js"
+    "static/js/main.625807dd.js"
   ]
 }
